@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+nav {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background-color: tan; }
+  nav .links {
+    margin-top: 27px;
+    text-align: center;
+    font-size: 120%;
+    font-family: "Courier New", Courier, monospace;
+    color: brown; }
+    nav .links a {
+      text-decoration: none;
+      letter-spacing: 2px; }
+
+.hero {
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(179, 102, 20, 0.633), rgba(0, 0, 0, 0.8)), url(../images/hero-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+  .hero .callout {
+    color: white;
+    text-align: center;
+    margin-right: 100px; }
+    .hero .callout h1 {
+      font-size: 330%;
+      font-family: "Courier New", Courier, monospace;
+      font-weight: 200; }
+    .hero .callout h4 {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-variant: small-caps;
+      margin-top: -10px;
+      font-size: 180%;
+      font-weight: 200;
+      letter-spacing: 30px; }
+
+.section1 {
+  background-color: brown;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center; }
+  .section1 .box {
+    width: 400px;
+    height: 700px;
+    background-color: #9c2727;
+    margin: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column; }
+    .section1 .box .title {
+      margin: 10px;
+      color: white;
+      margin-top: 20px;
+      text-align: center;
+      font-size: 200%;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      letter-spacing: 5px; }
+    .section1 .box .photo {
+      height: 300px;
+      width: 350px;
+      background-image: url(../images/oars-campsite.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .section1 .box .photo-photo1 {
+      height: 300px;
+      width: 350px;
+      background-image: url(../images/ColetteMcerney_Indiancreek_01-1330x888.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .section1 .box .photo-photo2 {
+      height: 300px;
+      width: 350px;
+      background-image: url(../images/hikinggear.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .section1 .box .text {
+      margin: 20px;
+      color: white;
+      font-family: "Courier New", Courier, monospace; }
+    .section1 .box .button {
+      margin-top: 20px;
+      letter-spacing: 5px;
+      color: white;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+
+section {
+  background-color: tan;
+  width: 100%;
+  height: 100%; }
+  section .container {
+    height: 100px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px; }
+    section .container .title {
+      margin-top: 100px;
+      color: brown;
+      font-size: 350%;
+      font-family: "Courier New", Courier, monospace;
+      letter-spacing: 5px; }
+    section .container .desc {
+      color: brown;
+      font-family: "Courier New", Courier, monospace; }
+  section .ABphoto {
+    float: right;
+    margin: 70px;
+    height: 500px;
+    width: 600px;
+    background-image: url(../images/hikinggroup.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  section .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: space-around; }
+    section .icons .icon1 {
+      margin: 10px;
+      width: 40px;
+      height: 40px;
+      background-image: url(../images/facebook-3-24.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    section .icons .icon2 {
+      margin: 10px;
+      width: 40px;
+      height: 40px;
+      background-image: url(../images/twitter-3-24.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    section .icons .icon3 {
+      margin: 10px;
+      width: 40px;
+      height: 40px;
+      background-image: url(../images/instagram-24.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }

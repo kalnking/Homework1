@@ -1,0 +1,65 @@
+.section1 {
+  background-color: brown;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+  .box {
+    width: 400px;
+    height: 700px;
+    background-color: rgb(156, 39, 39);
+    margin: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      margin: 10px;
+      color: white;
+      margin-top: 20px;
+      text-align: center;
+      font-size: 200%;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      letter-spacing: 5px;
+    }
+    .photo {
+      height: 300px;
+      width: 350px;
+      background-image: url(../images/oars-campsite.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .photo-photo1 {
+      height: 300px;
+      width: 350px;
+      background-image: url(../images/ColetteMcerney_Indiancreek_01-1330x888.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .photo-photo2 {
+      height: 300px;
+      width: 350px;
+      background-image: url(../images/hikinggear.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .text {
+      margin: 20px;
+      color: white;
+      font-family: "Courier New", Courier, monospace;
+    }
+
+    .button {
+      margin-top: 20px;
+      letter-spacing: 5px;
+      color: white;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
+}

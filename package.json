@@ -1,0 +1,23 @@
+{
+  "name": "homework1",
+  "version": "1.0.0",
+  "description": "Homework1 package.json file",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass scss/styles.scss css/styles.css -w",
+    "server": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Homework1"
+  },
+  "author": "Kalene Kingery",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

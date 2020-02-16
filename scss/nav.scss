@@ -1,0 +1,19 @@
+nav {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background-color: tan;
+
+  .links {
+    margin-top: 27px;
+    text-align: center;
+    font-size: 120%;
+    font-family: "Courier New", Courier, monospace;
+    color: brown;
+
+    a {
+      text-decoration: none;
+      letter-spacing: 2px;
+    }
+  }
+}
